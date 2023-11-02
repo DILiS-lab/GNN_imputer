@@ -48,8 +48,7 @@ To run the GNN model, follow these steps:
     python3 train_gnn_model.py <FOLD_NUM>
 
 The FOLD_NUM is the fold that you wish to train on (Should be between 0 to 4). For running training for all folds use 'all' for FOLD_NUM.
-The 'data' folder contains the DGL networks for the Blood Plasma dataset on which the GNN is to be trained. These networks are derived from real world dataset as described in [1]. 
-[1] Viode, Arthur, et al. "A simple, time-and cost-effective, high-throughput depletion strategy for deep plasma proteomics." Science advances 9.13 (2023): eadf9717.
+The 'data' folder contains the DGL networks for the Blood Plasma dataset on which the GNN is to be trained. These networks are derived from real world dataset as described in [1] and processed by methods described in [2]. 
 
 ## Results
 The training generates results in the form of:
@@ -60,3 +59,9 @@ The training generates results in the form of:
 
 ## License
 This project is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
+## References
+[1] Ahmed, Saima, et al. "Using plasma proteomics to investigate viral infections of the central nervous system including patients with HIV-associated neurocognitive disorders." Journal of NeuroVirology 28.3 (2022): 341-354. 
+
+[2] Viode, Arthur, et al. "A simple, time-and cost-effective, high-throughput depletion strategy for deep plasma proteomics." Science advances 9.13 (2023): eadf9717.
+
